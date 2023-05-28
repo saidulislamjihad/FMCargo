@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>FM Cargo Service</title>
+	<!-- Pavicon ICon -->
+	<link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
+
+	<!-- Boostrap-5 CDN -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<!-- Fontawesome Link -->
+	<link rel="stylesheet" type="text/css" href="assets/fonts/fontawesome/css/all.css">
+	<!-- Google Font Link -->
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+	<!-- Animate Css -->
+	<link rel="stylesheet" type="text/css" href="assets/css/animate.css">
+	<!-- Owl carosal -->
+	<link rel="stylesheet" type="text/css" href="assets/plugins/owl-carousel/owl.carousel.min.css">
+	<!-- Main CSS Link -->
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
+</head>
+<body>
+
+<!-- Header -->
+<header class="header-section">
+    <!-- Header Top -->
+    <div class="header-top-wrap">
+        <div class="header-top-left">
+            <ul class="social-icon-list">
+                <li class="social-icon-list-item">
+                	<a href="javascript:void(0);" class="fab fa-facebook-f"></a>
+                </li>
+                <li class="social-icon-list-item">
+                	<a href="javascript:void(0);" class="fab fa-twitter"></a>
+                </li>
+                <li class="social-icon-list-item">
+                	<a href="javascript:void(0);" class="fab fa-linkedin-in"></a>
+                </li>
+                <li class="social-icon-list-item">
+                	<a href="javascript:void(0);" class="fab fa-google-plus-g"></a>
+                </li>
+            </ul>
+        </div>
+        <div class="header-top-right">
+            <a href="mailto:info@example.com">
+            	<i class="fa fa-envelope"></i>
+            	<span>info@example.com</span>
+            </a>
+            <a href="tel:+141 1234 567 890">
+            	<i class="fas fa-phone-alt"></i>
+            	<span>+141 1234 567 890</span>
+            </a>                    
+        </div>
+    </div>
+    <!-- /Header Top -->
+    <!-- Main Header -->
+    <div class="header-bottom-wrap">
+        <!-- Website Logo -->
+        <div class="header-brand-logo-outer">
+            <a href="index.html" class="header-brand-logo">
+                <img src="assets/images/logo2.png" width="193" height="89" alt="logo">
+            </a>
+        </div>
+        <!-- Nav Item -->
+        <div class="nav-items-wrap">
+            <!-- Nav Toggle Button -->
+            <div class="nav-toggle-btn">
+                <div class="btn-inner"></div>
+            </div>
+            <!-- Main Nav -->
+            <ul class="nav-item-list">
+                <li class="nav-list-item">
+                    <a href="index.html" class="nav-item-link">
+                        Home
+                    </a>
+                </li>
+                <li class="nav-list-item item-has-submenu">
+                    <a href="javascript:;" class="nav-item-link">
+                        Services
+                        <i class="fa fa-chevron-down"></i>
+                    </a>
+                    <ul class="nav-item-submenu">
+                        <li class="submenu-item">
+                            <a href="service-details.html" class="submenu-item-link">
+                                Door To Door
+                            </a>
+                        </li>
+                        <li class="submenu-item">
+                            <a href="service-details.html" class="submenu-item-link">
+                                Specialized 
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-list-item">
+                    <a href="tracking.html" class="nav-item-link">
+                        Tracking
+                    </a>
+                </li>
+                <li class="nav-list-item">
+                    <a href="contact.html" class="nav-item-link">
+                        Contact Us
+                    </a>
+                </li>
+                <li class="nav-list-item item-has-submenu">
+                    <a href="javascript:;" class="nav-item-link">
+                        SignIn / SignUp
+                        <i class="fa fa-chevron-down"></i>
+                    </a>
+                    <ul class="nav-item-submenu">
+                        <li class="submenu-item">
+                            <a href="login.html" class="submenu-item-link">
+                                Login
+                            </a>
+                        </li>
+                        <li class="submenu-item">
+                            <a href="ragistration.html" class="submenu-item-link">
+                                Registration 
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-list-item">
+                    <a href="shop.html" class="nav-item-link">
+                        Shop
+                    </a>
+                </li>                
+            </ul>
+        </div>
+        <!-- <div class="cart-items-wrap">
+            <ul class="nav-item-list">
+                <li class="nav-list-item">
+                    <a href="#" class="nav-item-link">
+                        Cart <sup>(2)</sup>
+                    </a>
+                </li>
+            </ul>
+        </div>
+ -->    </div>
+    <!-- Main Header END -->
+</header>
+<!-- Header END -->
+
+<main class="main-section">
+	<!-- Fixed Cart -->
+    <div class="shopping-cart">
+        <div class="cart-hide-icon cart-show-hide-btn">
+            <button class="shopping-cart-close-icon">
+                <i class="fas fa-chevron-right"></i>
+            </button>
+        </div>
+        <div class="shopping-cart-items-count">
+            <div class="left">
+                <p class="shopping-cart-item-cont">
+                    <span>
+                        <i class="fas fa-shopping-bag"></i>
+                    </span>
+                    <span class="shopping-item-number">
+                        10
+                    </span>
+                    <span>items</span>
+                </p>
+            </div>
+            <div class="right cart-show-hide-btn">
+                <button class="shopping-cart-close-btn">
+                    close
+                </button>
+            </div>
+        </div>
+        <div class="shopping-delivery">
+            <span>
+                <i class="fas fa-truck"></i>
+                Express Delivery
+            </span>
+        </div>
+        <div class="shopping-order-items-wrapper">
+            <div class="shopping-order-item-outer">
+                <div class="order-quantity">
+                    <div>
+                        <i class="fas fa-chevron-up"></i>
+                    </div>
+                    <span>10</span>
+                    <div>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                </div>
+                <div class="shopping-order-item-image">
+                    <img src="assets/images/product.webp" />
+                </div>
+                <div class="shopping-order-item-name">
+                    <h3 class="name">
+                        Iphone 12 Pro max
+                    </h3>
+                    <span class="sub-text">
+                        ৳ 12000
+                    </span>
+                </div>
+                <div class="shopping-order-item-amount">
+                    <button class="shopping-order-item-delete-btn">
+                        <i class="fas fa-times"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="shopping-cart-order-check">
+            <span class="shopping-order-price">
+                ৳ 6000
+            </span>
+            <a href="billing.html" class="shopping-order-view-cart">
+                Place Order
+            </a>
+        </div>
+    </div>
+    <div class="add-cart-outer cart-show-hide-btn">
+        <div class="cart-item-count">
+            <i class="fas fa-shopping-bag"></i>
+            <span class="items-number">10</span>
+        </div>
+    </div>
+    <!-- /Fixed Cart -->
+
+    <!-- Fixed Social Icon -->
+    <div class="fixed-social-icon-wrap">
+        <ul class="fixed-social-list">
+            <li class="fixed-social-list-item">
+                <a href="#" class="fixed-social-list-item-link">
+                    <i class="fab fa-whatsapp"></i>
+                </a>
+            </li>
+            <li class="fixed-social-list-item">
+                <a href="#" class="fixed-social-list-item-link">
+                    <i class="fab fa-weixin"></i>
+                </a>
+            </li>
+            <li class="fixed-social-list-item">
+                <a href="#" class="fixed-social-list-item-link">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <!-- /Fixed Social Icon -->
+
+    <!-- Banner -->
+    <section class="banner-section">
+        <div class="container">
+            <div class="banner-content-wrapper">
+                <h1 class="banner-title">Shop</h1>
+                <ul class="banner-item">
+                    <li>
+                        <a href="index.html">
+                            <i class="fas fa-home"></i>
+                            Home
+                        </a>
+                    </li>
+                    <li class="active">
+                        <a href="javascript:void(0)">
+                            Shop
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <!-- /Banner -->
+    <!-- Shop -->
+    <section class="product-section">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-3 col-md-4 col-sm-6">
+					<div class="product-item-wrap">
+						<div class="product-image-outer">
+							<img src="assets/images/product.webp" alt="Image" class="product-image">	
+							<span class="product-discount-persent">
+								-15%
+							</span>
+							<div class="product-action">
+                                <a class="action-btn" href="#">
+                                	<i class="far fa-heart"></i>
+                                </a>
+                                <a class="action-btn" href="#">
+                                	<i class="fas fa-shopping-cart"></i>
+                                </a>
+                            </div>
+						</div>
+						<div class="product-info-outer">
+							<ul class="product-item-ratting">
+                                <li>
+                                    <i class="fas fa-star"></i>
+                                </li>
+                                <li>
+                                    <i class="fas fa-star"></i>
+                                </li>
+                                <li>
+                                    <i class="fas fa-star"></i>
+                                </li>
+                                <li>
+                                    <i class="fas fa-star"></i>
+                                </li>
+                                <li>
+                                    <i class="fas fa-star"></i>
+                                </li>
+                            </ul>
+                            <a href="product-details.html" class="product-name">
+                            	Maytto Mini Portable Fan
+                            </a>
+                            <div class="product-price-outer">
+                            	<del class="main-price">
+                            		$300
+                            	</del>
+                            	<span class="discount-price">
+                            		$200
+                            	</span>
+                            </div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="product-load-btn-outer">
+				<a href="#" class="product-load-btn-inner">
+					Load More
+				</a>
+			</div>
+		</div>
+	</section>
+    <!-- /Shop -->
+</main>
+
+<!-- Footer -->
+<footer class="footer-section">
+	<div class="footer-top-wrapper">
+		<div class="container">
+	        <div class="row">
+	            <div class="col-lg-3 col-md-6">
+	                <div class="footer-item-wrapper">
+	                    <img src="assets/images/logo2.png" alt="Footer Logo" class="footer-brand-logo">
+	                    <p class="footer-item-des">
+	                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse.
+	                    </p>
+	                    <ul class="socials-link-list">
+	                        <li class="socials-link-list-item">
+	                            <a href="#" target="_blank">
+	                                <i class="fab fa-facebook-f"></i>
+	                            </a>
+	                        </li>
+	                        <li class="socials-link-list-item">
+	                            <a href="#" target="_blank">
+	                                <i class="fab fa-whatsapp"></i>
+	                            </a>
+	                        </li>
+	                        <li class="socials-link-list-item">
+	                            <a href="#">
+	                                <i class="fab fa-weixin"></i>
+	                           </a>
+	                        </li>
+	                    </ul>
+	                </div>
+	            </div>
+	            <div class="col-lg-3 col-md-6">
+	                <div class="footer-item-wrapper">
+	                    <h5 class="footer-item-heading">
+	                       Useful Links
+	                    </h5>
+	                    <ul class="service-list">
+	                        <li class="service-list-item">
+	                            <a href="#" class="service-list-item-link">
+	                                Terms & Conditions
+	                            </a>
+	                        </li>
+	                        <li class="service-list-item">
+	                            <a href="#" class="service-list-item-link">
+	                                Privacy Policy
+	                            </a>
+	                        </li>
+	                        <li class="service-list-item">
+	                            <a href="#about" class="service-list-item-link">
+	                                About Us
+	                            </a>
+	                        </li>
+	                    </ul>
+	                </div>
+	            </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="footer-item-wrapper">
+                        <h5 class="footer-item-heading">
+                            Our policis
+                        </h5>
+                        <ul class="service-list">
+                            <li class="service-list-item">
+                                <a href="#" class="service-list-item-link">
+                                    Terms & Conditions
+                                </a>
+                            </li>
+                            <li class="service-list-item">
+                                <a href="#" class="service-list-item-link">
+                                    Privacy Policy
+                                </a>
+                            </li>
+                            <li class="service-list-item">
+                                <a href="#about" class="service-list-item-link">
+                                    About Us
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+	            <div class="col-lg-3 col-md-6">
+	                <div class="footer-item-wrapper">
+	                    <h5 class="footer-item-heading">
+	                        Contact Info
+	                    </h5>
+	                    <div class="footer-item">
+	                        <i class="fas fa-map-marker-alt"></i>
+	                        <div class="content">
+	                        	<h6 class="name">
+	                        		Address
+	                        	</h6>
+	                        	<p class="text">
+	                        		demo address #8901 Marmora Road Chi Minh City, Vietnam
+	                        	</p>
+	                        </div>
+	                    </div>
+	                    <div class="footer-item">
+	                        <i class="fas fa-mobile-alt"></i>
+	                        <div class="content">
+	                        	<h6 class="name">
+	                        		PHONE
+	                        	</h6>
+	                        	<a href="tel:01885131495" class="text">		                            
+		                            01885131495
+		                        </a>
+	                        </div>
+	                    </div>
+	                    <div class="footer-item">
+	                        <i class="fas fa-envelope"></i>
+	                        <div class="content">
+	                        	<h6 class="name">
+	                        		EMAIL
+	                        	</h6>
+	                        	<a href="mailto:info@demo.com" class="text">
+									info@demo.com
+		                        </a>
+	                        </div>
+	                    </div>
+	                </div>
+	            </div>
+	        </div>
+	    </div>
+	</div>
+	<div class="footer-bottom-wrapper">
+		<div class="container">
+			<div class="footer-bottom-text">
+				<p>
+					© copyright 2022. All Rights Reserved.
+				</p>
+			</div>
+		</div>
+	</div>
+</footer>
+<!-- /Footer -->
+
+<!-- Jquery CDN -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<!-- Boostarap CDN -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+<!-- Slick Slider CDN -->
+<script src="assets/plugins/slick-slider/slick.min.js"></script>
+<!-- owl carosal js -->
+<script src="assets/plugins/owl-carousel/owl.carousel.min.js"></script>
+<!-- Wow js -->
+<script src="assets/js/wow.min.js"></script>
+<!-- Main JS -->
+<script src="assets/js/main.js"></script>
+<script type="text/javascript">
+	new WOW().init();
+</script>
+</body>
+</html>
