@@ -459,6 +459,8 @@ body {
 
 .nav-items-wrap {
     height: 100%;
+    display: flex;
+    align-items: center;
 }
 
 .header-brand-logo {
@@ -568,7 +570,7 @@ body {
 
 .nav-toggle-btn .btn-inner {
     width: 26px;
-    border-bottom: 1px solid #fff;
+    border-bottom: 1px solid #000;
     position: relative;
     transition: all .4s ease;
 }
@@ -577,7 +579,7 @@ body {
     width: 40px;
     align-items: center;
     justify-content: center;
-    border: 1px solid #fff;
+    border: 1px solid #000;
     padding: 5px;
     border-radius: 5px;
     display: none;
@@ -590,7 +592,7 @@ body {
     height: 1px;
     width: 26px;
     position: absolute;
-    background: #fff;
+    background: #000;
     top: -7px;
 }
 .nav-toggle-btn .btn-inner:after {
@@ -598,7 +600,7 @@ body {
     height: 1px;
     width: 26px;
     position: absolute;
-    background: #fff;
+    background: #000;
     top: 7px;
 }
 /*fixed header*/
@@ -606,7 +608,7 @@ body {
 .fixed-header .header-top-bar {
     display: none;
 }
-.fixed-header .main-navbar {
+.fixed-header .header-bottom-wrap {
     position: fixed;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     width: 100%;

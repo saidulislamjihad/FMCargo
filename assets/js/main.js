@@ -8,6 +8,12 @@ $(window).scroll(function() {
     }
 });
 
+
+function myFunction() {
+   var element = document.getElementById("showMenu");
+   element.classList.toggle("menu-visible");
+}
+
 // Navbar Toggle Button For Mini Device
 $('.nav-toggle-btn').click(function() {
     $('.nav-items-wrapper').toggleClass('menu-visible');

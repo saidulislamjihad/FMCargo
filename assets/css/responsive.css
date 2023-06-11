@@ -15,7 +15,7 @@
         top: 0;
         transition: all .5s ease;
     }
-    .nav-items-wrapper .nav-item-list {
+    .nav-items-wrap .nav-item-list {
         flex-direction: column;
         position: fixed;
         right: -400px;
